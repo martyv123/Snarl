@@ -5,7 +5,7 @@
 - Terminal or CLI (Command Line Interface)
 
 # Setting Up:
-1. Clone the repository at https://github.ccs.neu.edu/CS4500-S21/Olindond.git
+1. Clone the repository at https://github.com/martyv123/Snarl/
 2. Open the directory at Olindond/Snarl/local.
 3. Run the executable in a terminal with the command ```./localSnarl --help```.
 4. Run the executable again with your desired flags. <br>

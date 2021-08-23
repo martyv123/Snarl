@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import sys
+
+sys.path.append('../src/Player')
+sys.path.append('../src/Game')
+sys.path.append('../src/Common')
+sys.path.append('../src/Remote')
+sys.path.append('../src/Observer')
+
+from Remote import *
+
+server = Remote()
+
+server.start_server()

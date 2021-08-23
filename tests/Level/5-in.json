@@ -1,0 +1,17 @@
+[{ "type": "level",
+    "rooms": [ { "type": "room",
+                 "origin": [ 0, 0 ],
+                 "bounds": { "rows": 5, "columns": 5 },
+                 "layout": [ [0, 0, 0, 0, 0],
+                             [0, 1, 1, 1, 2],
+                             [0, 1, 1, 1, 0],
+                             [0, 1, 1, 1, 2],
+                             [0, 0, 0, 0, 0]
+               ] }],
+    "objects": [ { "type": "key", "position": [ 2, 2 ] },
+                 { "type": "exit", "position": [ 2, 3 ] } ],
+    "hallways": [ { "type": "hallway",
+                    "from": [ 1, 4 ],
+                    "to": [ 3, 4 ],
+                    "waypoints": [ [ 1, 7 ], [ 3, 7 ] ] } ]
+  }, [1, 3]]
